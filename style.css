@@ -2,7 +2,6 @@
 @import url(./animations.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-@import url("http://fonts.cdnfonts.com/css/alphacentauri");
 
 /* =====css-variables===== */
 :root {
@@ -423,7 +422,7 @@ img {
 .contact__heading {
   position: absolute;
   font-size: 2.5rem;
-  font-family: alphacentauri;
+  font-family: "AlphaCentauri", sans-serif;
 }
 
 @media only screen and (min-width: 37.5em) {
@@ -470,7 +469,7 @@ img {
 }
 .heading__primary--2 {
   font-size: 2.75rem;
-  font-family: alphacentauri;
+  font-family: "AlphaCentauri", sans-serif;
 }
 
 .heading__primary-letter:hover {
@@ -495,7 +494,7 @@ img {
   text-decoration: none;
   background: linear-gradient(90deg, #03a9f4, #f441a5, dodgerblue);
   color: #fff;
-  font-family: alphacentauri;
+  font-family: "AlphaCentauri", sans-serif;
   background-size: 300%;
   height: 3rem;
   width: 8rem;
@@ -774,7 +773,7 @@ img {
     letter-spacing: 1px;
     padding: 0.2rem;
     background-size: 300%;
-    font-family: alphacentauri;
+    font-family: "AlphaCentauri", sans-serif;
     animation: bg-animate 8s infinite;
   }
 
@@ -1112,7 +1111,7 @@ img {
 .cta__btn-link:link,
 .cta__btn-link:visited {
   background: linear-gradient(45deg, orangered, magenta);
-  font-family: alphacentauri;
+  font-family: "AlphaCentauri", sans-serif;
   color: white;
   border-radius: 2.5rem;
   padding: 1rem;
@@ -1409,7 +1408,7 @@ textarea.input {
     transform: rotate(90deg);
     bottom: -70%;
     left: -30%;
-    font-family: alphacentauri;
+    font-family: "AlphaCentauri", sans-serif;
   }
 }
 
@@ -1435,7 +1434,5 @@ textarea.input {
   }
   .disclaimer {
     width: 80%;
-  }
-  .submit-btn {
   }
 }
