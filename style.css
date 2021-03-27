@@ -198,12 +198,12 @@ img {
   display: block;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   main {
     background: var(--main-bg-1);
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   main {
     background: var(--main-bg-2);
   }
@@ -310,14 +310,14 @@ img {
 }
 
 /* -----media-navbar-- */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .nav_container {
     width: 5rem;
     height: 100vh;
     top: 0;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .nav_container {
     bottom: 0;
     left: 0;
@@ -371,7 +371,7 @@ img {
 }
 /* =======clip-path-setting=========== */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .intro__left,
   .skill__left,
   .contact__left {
@@ -396,7 +396,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .intro__left,
   .about__left,
   .skill__left,
@@ -426,7 +426,7 @@ img {
   font-family: alphacentauri;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .about__heading,
   .skills__heading,
   .project__heading,
@@ -435,7 +435,7 @@ img {
     left: 12%;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .about__heading,
   .skills__heading,
   .contact__heading {
@@ -712,7 +712,7 @@ img {
   animation: stick-animation 3s infinite linear;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .candle2__eyes--one {
     left: 30%;
     top: 30%;
@@ -728,7 +728,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .heading {
     top: 15%;
     left: 5%;
@@ -890,14 +890,14 @@ img {
   transform-origin: bottom right;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .about__text {
     top: 20%;
     left: 10%;
     padding: 2rem 1rem;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .cube {
     width: 10rem;
     height: 10rem;
@@ -1017,7 +1017,7 @@ img {
   animation-delay: calc(-0.7s * var(--i));
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .skills__text {
     top: 10%;
     left: 10%;
@@ -1168,7 +1168,7 @@ img {
   text-align: justify;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .card {
     width: 20rem;
     height: 25rem;
@@ -1186,7 +1186,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .card {
     top: 5%;
     left: 20%;
@@ -1371,7 +1371,7 @@ textarea.input {
   align-items: center;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 37.5em) {
   .form {
     top: 15%;
     right: 15%;
@@ -1379,7 +1379,7 @@ textarea.input {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .form__desc {
     height: 25%;
     width: 75%;
@@ -1427,7 +1427,7 @@ textarea.input {
   text-align: justify;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   .footer {
     flex-direction: column;
     margin: 0;
