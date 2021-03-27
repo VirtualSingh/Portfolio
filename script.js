@@ -1,7 +1,7 @@
 const inputs = document.querySelectorAll(".input");
 const resumeBtn = document.querySelector(" .resume-btn");
 resumeBtn.addEventListener("click", () => {
-  window.open("https://virtualsingh.github.io/responsive-resume/");
+  window.open("https://virtualsingh.github.io/resume/");
 });
 
 function focusFunction() {
